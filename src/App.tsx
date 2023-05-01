@@ -117,7 +117,7 @@ function App() {
             <Button className='drum-pad' onClick={() => handleDrumPad('Kick', 'Side_Stick')}>X</Button>
             <Button className='drum-pad' onClick={() => handleDrumPad('Dry_Closed_HH', 'Snare')}>C</Button>
           </SimpleGrid>
-          
+
         </Container>
       </Container>
     </Center>
@@ -128,7 +128,7 @@ export default App
 
 const SOUNDS = new Howl({
   "src": [
-    "/audio/sounds.mp3"
+    "./audio/sounds.mp3"
   ],
   "sprite": {
     "Closed_HH": [
